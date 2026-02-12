@@ -143,3 +143,12 @@ checklink/cookies.txt
 nbs/wandb/
 examples/notebooks/wandb/
 wandb/
+
+# local data artifacts
+*.json
+*.csv
+*.jsonl
+
+data/*
+!data/*.py
+!data/README.md
